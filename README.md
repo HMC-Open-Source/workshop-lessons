@@ -10,6 +10,24 @@ well and make edits where they want.
 You can view this project here: 
 [https://cs.hmc.edu/~ccalingo/projects/wsl-lesson.html](https://cs.hmc.edu/~ccalingo/projects/wsl-lesson.html)
 
+## Developer wishlist
+- Take this project so that you do not have to directly code HTML in the main
+  wsl-lesson.html file. (There's a way to do this with javascript!)
+- Contribute clarifying language to instructions. 
+- Point out things to look out if your experience on your Windows machine
+  looked different.
+
+## Beginner-ish Instructions for contributing to this repo
+- Fork the repo
+- Clone locally to your laptop
+  - Use File Explorer to double-click/open the HTML file to see your changes
+- Use branching if you are contributing significant code changes or new 
+  features
+- Git add, commit, and push!
+- Submit pull request
+
+*Instructions too vague? Someone should change it. Or ask AI to help.*
+
 ---
 
 ## File Structure 
