@@ -145,3 +145,11 @@ function copyCode(btn, text) {
     setTimeout(() => { btn.textContent = 'Copy'; }, 1800);
   });
 }
+
+// ── Reset button ──────────────────────────────────────────
+function resetProgress() {
+  document.querySelectorAll('.quiz-block').forEach(quiz => {
+    localStorage.removeItem(QUIZ_VERSION + '_' + quiz.id);
+  });
+  location.reload();
+}

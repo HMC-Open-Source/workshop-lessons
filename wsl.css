@@ -533,3 +533,21 @@ code {
   margin: 0;
   border-top: 1px solid #333;
 }
+
+/* ── Reset button ────────────────────────────────────────── */
+.reset-btn {
+  background: none;
+  border: 1px solid #444;
+  color: #666;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.reset-btn:hover {
+  border-color: #f87171;
+  color: #f87171;
+}
