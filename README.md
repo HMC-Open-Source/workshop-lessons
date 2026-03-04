@@ -7,6 +7,8 @@ The code and much of the README.md was generated with Claude.ai and
 is intended to be used by people who can navigate this code fairly
 well and make edits where they want.
 
+You can view this project here: 
+[https://cs.hmc.edu/~ccalingo/wsl-lesson.html](https://cs.hmc.edu/~ccalingo/wsl-lesson.html)
 ---
 
 ## File Structure 
