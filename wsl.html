@@ -318,18 +318,26 @@
 
     <div class="accordion">
       <button class="accordion-btn" onclick="toggleAccordion(this)">
-        <span>What if Ubuntu opens the wrong shell or Command Prompt instead?</span>
+        <span>
+          What if Ubuntu opens the wrong shell or Command Prompt instead?
+        </span>
         <span class="chevron">▼</span>
       </button>
       <div class="accordion-body">
         <div class="accordion-inner">
-          <p>If, for some reason, opening Ubuntu actually opens your default shell or command prompt:</p>
+          <p>If, for some reason, opening Ubuntu actually opens your default 
+            shell or command prompt:</p>
           <ol>
               <li>Close the shell or command prompt.</li>
-              <li>Try again, but this time click <strong>"Run as Administrator."</strong></li>
+              <li>
+                Try again, but this time click 
+                <strong>"Run as Administrator."</strong>
+              </li>
           </ol>
-          <p>This should open the actual Ubuntu app.</p>
-          <p>You can verify it's the right app if the top shows the orange Ubuntu logo.</p>
+          <p style="margin-top:0.6rem">
+            This should open the actual Ubuntu app. You can verify it's the 
+            right app if the top shows the orange Ubuntu logo.
+          </p>
         </div>
       </div>
     </div>
@@ -402,12 +410,12 @@
         </span>) privileges.
       </li>
       <li>
-        <code>apt update</code> — Refreshes the list of available software packages
-        from the internet.
+        <code>apt update</code> — Refreshes the list of available software 
+        packages from the internet.
       </li>
       <li>
-        <code>apt upgrade</code> — Actually installs the newer versions of any outdated
-        packages.
+        <code>apt upgrade</code> — Actually installs the newer versions of any 
+        outdated packages.
       </li>
       <li>
 
@@ -441,7 +449,9 @@
         </tr>
         <tr>
           <td>pwd</td>
-          <td>Stands for print working directory, which shows your current path</td>
+          <td>
+            Stands for print working directory, which shows your current path
+          </td>
         </tr>
         <tr>
           <td>mkdir folder_name</td>
@@ -467,34 +477,36 @@
         </tr>
         <tr>
           <td>rm file_name</td>
-          <td>Removes a file. There's no trash/recycle bin — deletions are permanent,
-              so use it carefully!
+          <td>Removes a file. There's no trash/recycle bin — deletions are 
+              permanent, so use it carefully!
           </td>
         </tr>
         <tr>
           <td>rm -i file_name</td>
-          <td>Removes a file, but with caution. This will prompt you to confirm before
-              deleting each file. It's good to use if you want to be careful
-              (<code>-i</code> = "interactive")</td>
+          <td>Removes a file, but with caution. This will prompt you to confirm 
+              before deleting each file. It's good to use if you want to be 
+              careful (<code>-i</code> = "interactive")
+          </td>
         </tr>
         <tr>
           <td>rm -rf folder_name</td>
-          <td>This is the typical way to remove a directory and all its contents. 
-              Use with caution! There are some safeguards to removing directories
-              since you cannot remove them withouth certain flags
+          <td>This is the typical way to remove a directory and all its 
+              contents. Use with caution! There are some safeguards to removing 
+              directories since you cannot remove them withouth certain flags
               (<code>-r</code> = "recursive" and <code>-f</code> = "force")
           </td>
         </tr>
         <tr>
           <td>cat file_name</td>
-          <td>Short fo "concatenate." This displays the contents of a file directly
-              in the terminal. Most commonly used to quickly read a file without
-              opening an editor</td>
+          <td>Short fo "concatenate." This displays the contents of a file 
+              directly in the terminal. Most commonly used to quickly read a 
+              file without opening an editor</td>
         </tr>
         <tr>
           <td>></td>
           <td>The <code>></code> operator redirects output into a file, creating
-              it if it doesn't exist and <strong>overwriting</strong> it if it does
+              it if it doesn't exist and <strong>overwriting</strong> it if it 
+              does
           </td>
         </tr>
       </tbody>
@@ -530,12 +542,13 @@
       </li>
       <li onclick="toggleCheck(this)">
         <span class="check-icon">✓</span>
-        Run <code>touch workshop.txt</code> in the workshop directory to create a file
+        Run <code>touch workshop.txt</code> in the workshop directory to create 
+        a file
       </li>
       <li onclick="toggleCheck(this)">
         <span class="check-icon">✓</span>
-        Run <code>echo "Hello, world" > workshop.txt</code> to overwrite the file with
-        "Hello, world"
+        Run <code>echo "Hello, world" > workshop.txt</code> to overwrite the 
+        file with "Hello, world"
       </li>
     </ul>
 
@@ -564,8 +577,8 @@
 
     <p>
       Then <code>ls</code> to confirm it worked, <code>cd</code> into
-      the new directory "terminal_game", and run <code>cat README.md</code> to get
-      started. The game uses the commands you just learned!
+      the new directory "terminal_game", and run <code>cat README.md</code> to 
+      get started. The game uses the commands you just learned!
     </p>
 
     <div class="quiz-block" id="quiz-3">
@@ -579,7 +592,9 @@
           <button onclick="checkAnswer(this, false)">cd ~</button>
         </li>
         <li>
-          <button data-correct="true" onclick="checkAnswer(this, true)">cd ..</button>
+          <button data-correct="true" onclick="checkAnswer(this, true)">
+            cd ..
+          </button>
         </li>
         <li>
           <button onclick="checkAnswer(this, false)">cd /home</button>
@@ -610,7 +625,9 @@
           <button onclick="checkAnswer(this, false)">rm -i</button>
         </li>
         <li>
-          <button data-correct="true" onclick="checkAnswer(this, true)">rm -ir</button>
+          <button data-correct="true" onclick="checkAnswer(this, true)">
+            rm -ir
+          </button>
         </li>
       </ul>
       <p class="quiz-feedback">Answer correctly to unlock the next section.</p>
@@ -655,12 +672,15 @@
             place you land when you open Ubuntu.
           </p>
           <div class="screenshot-wrap">
-            <img src="wsl-images/linux-location.png" alt="screenshot of file explorer
-                      showing where linux is located" class="screenshot" />
+            <img src="wsl-images/linux-location.png" 
+                 alt="screenshot of file explorer
+                      showing where linux is located" 
+                 class="screenshot" />
           </div>
           <div class="screenshot-wrap">
-            <img src="wsl-images/home-folder.png" alt="screenshot of visual path
-                      to Ubuntu ~ home" class="screenshot" />
+            <img src="wsl-images/home-folder.png" 
+                 alt="screenshot of visual path to Ubuntu ~ home" 
+                 class="screenshot" />
           </div>
         </div>
       </div>
@@ -745,7 +765,10 @@
     
     <div class="accordion">
         <button class="accordion-btn" onclick="toggleAccordion(this)">
-          <span>Open a folder or file from Ubuntu once so that VS Code can access it</span>
+          <span>
+              Open a folder or file from Ubuntu once so that VS Code can 
+              access it
+          </span>
           <span class="chevron">▼</span>
         </button>
         <div class="accordion-body">
@@ -778,19 +801,27 @@
                                   bar" class="screenshot" />
                     </div>
                     <li>
-                        Navigate to your home directory: Ubuntu → home → [your username]
+                        Navigate to your home directory: Ubuntu → home → 
+                        [your username]
                     </li>
                     <li>
-                        Choose the folder you want to work on in VS Code. In this case
-                        we'll choose "workshop"
+                        Choose the folder you want to work on in VS Code. In 
+                        this case we'll choose "workshop"
                     </li>
                     <li>
-                        Finally, trust Ubuntu! VS Code will show one or more prompts
-                        asking if you trust <code>wsl.localhost</code>. Accept all of them.
-                        After that, VS Code can fully access and edit files in your Ubuntu
-                        environment.
+                        Finally, trust Ubuntu (and make sure to check the box
+                        to permanently allow wsl.localhost)! VS Code will show 
+                        one or more prompts asking if you trust 
+                        <code>wsl.localhost</code>. Accept all of them. After 
+                        that, VS Code can fully access and edit files in your 
+                        Ubuntu environment.
                     </li>
                 </ol>
+                <div class="screesnhot-wrap">
+                  <img src="wsl-images/wsl-localhost.png" 
+                       alt="screenshot of permission warning"
+                       class="screenshot" />
+                </div>
             </div>
         </div>
     </div>
@@ -808,8 +839,8 @@
                     </li>
                     <li>Search for "Terminal: Select Default Profile"</li>
                     <li>
-                        Choose the default terminal you want to use, which in this case 
-                        will be WSL. 
+                        Choose the default terminal you want to use, which in 
+                        this case will be WSL. 
                     </li>
                 </ol>
             </div>
@@ -823,9 +854,10 @@
         </button>
         <div class="accordion-body">
             <div class="accordion-inner">
-                Once set up, you can launch VS Code on any file directly from Ubuntu/WSL, 
-                or any terminal, by running it with the command <code>code filename</code>.
-                Try it with <code>code workshop.txt</code>
+                Once set up, you can launch VS Code on any file directly from 
+                Ubuntu/WSL, or any terminal, by running it with the command 
+                <code>code filename</code>. Try it with 
+                <code>code workshop.txt</code>
             </div>
         </div>
     </div>
@@ -833,8 +865,8 @@
     <div class="quiz-block" id="quiz-6">
       <h4>✦ Quick Check</h4>
       <p class="quiz-question">
-        If you wanted to change the terminal in WSL back to PowerShell, how would you 
-        do that?
+        If you wanted to change the terminal in WSL back to PowerShell, how 
+        would you do that?
       </p>
         <ul class="quiz-options">
           <li>
@@ -880,37 +912,42 @@
                   Install Windows Subsystem for Linux
               </li>
               <li>
-                  Use WSL as Ubuntu, and practiced using the Ubuntu (bash) terminal
+                  Use WSL as Ubuntu, and practiced using the Ubuntu (bash) 
+                  terminal
               </li>
               <li>
-                  Set up VS Code to be able to access your Linux Virtual Hard Disk 
+                  Set up VS Code to be able to access your Linux Virtual Hard 
+                  Disk 
               </li>
               <li>
                   Set up VS Code's terminal view to use WSL/Ubuntu
               </li>
           </ul>
           <p style="margin-top:0.6rem">
-              Remember, your Linux files are located (and completely) contained on the
-              Virtual Hard Disk side! If you use Linux to develop things but need access
-              to your Windows files, you should probably do some research on that.
+              Remember, your Linux files are located (and completely) contained 
+              on the Virtual Hard Disk side! If you use Linux to develop things 
+              but need access to your Windows files, you should probably do some
+              research on that.
           </p>
 
           <h3>When should I use WSL?</h3>
           <ul>
               <li>
-                  <strong>Web Development:</strong> which are often built with Linux 
-                  in mind
+                  <strong>Web Development:</strong> which are often built with 
+                  Linux in mind
               </li>
               <li>
-                  <strong>Open source projects:</strong> most are written with instructions
-                  for Linux/Mac
+                  <strong>Open source projects:</strong> most are written with 
+                  instructions for Linux/Mac
               </li>
               <li>
-                  <strong>Data science and ML:</strong> Python, Jupyter, PyTorch, etc. all
-                  work more smoothly in a Linux environment
+                  <strong>Data science and ML:</strong> Python, Jupyter, 
+                  PyTorch, etc. all work more smoothly in a Linux environment
               </li>
               <li>
-                  <strong>Learning systems programming or CS fundamentals</strong>
+                  <strong>
+                    Learning systems programming or CS fundamentals
+                  </strong>
               </li>
           </ul>
 
@@ -923,12 +960,12 @@
                   Anything using Windows-specific APIs or the registry
               </li>
               <li>
-                  Game development with engines like Unity or Unreal, which have native
-                  Windows tooling
+                  Game development with engines like Unity or Unreal, which have
+                  native Windows tooling
               </li>
               <li>
-                  .NET development (though this has become more cross-platform in recent
-                  years)
+                  .NET development (though this has become more cross-platform 
+                  in recent years)
               </li>
           </ul>
       
