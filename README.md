@@ -1,4 +1,4 @@
-# WSL Lesson Developer README
+# Lesson Developer README
 This document explains the structure and interactive features of the
 WSL lesson page so that anyone editing, extending, or riffing off it
 can understand how everything works.
@@ -7,8 +7,8 @@ The code and much of the README.md was generated with Claude.ai and
 is intended to be used by people who can navigate this code fairly
 well and make edits where they want.
 
-You can view this project by [clicking here](churslic.github.io/
-wsl-lesson/wsl-lesson.html)
+You can view a sample of this project here:
+<https://churslic.github.io/workshop-lessons/wsl.html>
 
 ## Developer wishlist
 - Take this project so that you do not have to directly code HTML in the main
@@ -20,7 +20,8 @@ wsl-lesson/wsl-lesson.html)
 ## Beginner-ish Instructions for contributing to this repo
 - Fork the repo
 - Clone locally to your laptop
-  - Use File Explorer to double-click/open the HTML file to see your changes
+  - Use File Explorer/Finder to double-click/open the HTML file to see your 
+    changes
 - Use branching if you are contributing significant code changes or new 
   features
 - Git add, commit, and push!
@@ -33,16 +34,12 @@ wsl-lesson/wsl-lesson.html)
 ## File Structure 
 
 ```
-wsl-lesson.html   — lesson content and markup
-wsl.css           — all styles for the lesson
-wsl.js         — all interactive functionality
-style.css         — site-wide base styles (not lesson-specific)
+lesson.html   — lesson content and markup
+lesson.css           — all styles for the lesson
+lesson.js         — all interactive functionality
 ```
 
-`wsl-lesson.html` links to `wsl.css` and `wsl.js`. However, 
-`style.css` is not needed for this project and comes from the site
-it's hosted on. It's included for the navigation menu, which can 
-be changed.
+`lesson.html` links to `lesson.css` and `lesson.js`. 
 
 ---
 
